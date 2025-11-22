@@ -228,6 +228,12 @@ export default function App() {
         >
           {getMessage()}
         </p>
+
+        <div className={`mt-8 text-center ${
+          activeEffects.darkMode || (!activeEffects.spotlight && !activeEffects.disco) ? 'text-gray-400' : 'text-gray-500'
+        }`}>
+          <p className="text-sm font-semibold">Made with ❤️ by Team2</p>
+        </div>
       </div>
     </div>
   );
