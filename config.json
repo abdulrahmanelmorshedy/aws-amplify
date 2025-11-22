@@ -1,0 +1,88 @@
+{
+  "title": "✨ Light & Tricks ✨",
+  "buttons": [
+    {
+      "id": "main-light",
+      "label": "Lights",
+      "icon": "Lightbulb",
+      "states": {
+        "off": {
+          "text": "Lights OFF",
+          "bgColor": "bg-gray-700",
+          "textColor": "text-white",
+          "shadow": ""
+        },
+        "on": {
+          "text": "Lights ON",
+          "bgColor": "bg-yellow-400",
+          "textColor": "text-gray-900",
+          "shadow": "shadow-yellow-400/50"
+        }
+      },
+      "effect": "spotlight",
+      "backgroundColor": "bg-yellow-50"
+    },
+    {
+      "id": "disco",
+      "label": "Disco",
+      "icon": "Zap",
+      "states": {
+        "off": {
+          "text": "Disco Mode",
+          "bgColor": "bg-gray-700",
+          "textColor": "text-white",
+          "shadow": ""
+        },
+        "on": {
+          "text": "Disco ON",
+          "bgColor": "bg-purple-600",
+          "textColor": "text-white",
+          "shadow": "shadow-purple-600/50"
+        }
+      },
+      "effect": "disco",
+      "colors": ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff", "#00ffff"],
+      "interval": 200
+    },
+    {
+      "id": "sparkles",
+      "label": "Magic Sparkles",
+      "icon": "Sparkles",
+      "bgColor": "bg-gradient-to-br from-pink-500 to-purple-600",
+      "textColor": "text-white",
+      "shadow": "hover:shadow-pink-500/50",
+      "effect": "sparkles",
+      "duration": 1000,
+      "count": 20
+    },
+    {
+      "id": "dark-mode",
+      "label": "Mode",
+      "icon": "Moon",
+      "states": {
+        "off": {
+          "text": "Day Mode",
+          "icon": "Sun",
+          "bgColor": "bg-orange-400",
+          "textColor": "text-gray-900",
+          "shadow": "shadow-orange-400/50"
+        },
+        "on": {
+          "text": "Night Mode",
+          "icon": "Moon",
+          "bgColor": "bg-indigo-900",
+          "textColor": "text-white",
+          "shadow": "shadow-indigo-900/50"
+        }
+      },
+      "effect": "darkMode",
+      "backgroundColor": "bg-gray-900"
+    }
+  ],
+  "messages": {
+    "default": "Click a button to start! 🚀",
+    "spotlight": "Move your mouse around to control the spotlight! ✨",
+    "disco": "Feel the rhythm! 🎵",
+    "darkMode": "Peaceful night mode 🌙"
+  }
+}
